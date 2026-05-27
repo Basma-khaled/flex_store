@@ -113,15 +113,13 @@ class MyApp extends StatelessWidget {
           ),
         ),
         bottomNavigationBar: BottomNavigationBar(
-          // هذا السطر ليعمل الكود مع 4 أيقونات بدون أخطاء
+          //  لاضافة 4 أيقونات 
           type: BottomNavigationBarType.fixed,
 
-          // نحدد أن الأيقونة الأولى هي المختارة دائماً حالياً
-          currentIndex: 3,
+          currentIndex: 3,//لتحديد الايقونة 
           //showSelectedLabels: false,   // إخفاء النص تحت الأيقونة المختارة
           //showUnselectedLabels: false, // إخفاء النص تحت باقي الأيقونات
 
-          // الألوان كما في الصورة
           selectedItemColor: Colors.black,
           unselectedItemColor: Colors.grey,
 
