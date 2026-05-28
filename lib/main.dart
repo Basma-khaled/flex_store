@@ -65,16 +65,16 @@ class MyApp extends StatelessWidget {
                         color: Colors.grey,
                       ),
                       title: Text("Address"),
-                      trailing: Icon(Icons.arrow_forward_ios),
+                      trailing: Icon(Icons.arrow_forward_ios,size: 18,),
                     ),
 
                     ListTile(
                       leading: Icon(Icons.payment_outlined, color: Colors.grey),
                       title: Text(
-                        ""
+
                         "Payment Method",
                       ),
-                      trailing: Icon(Icons.arrow_forward_ios),
+                      trailing: Icon(Icons.arrow_forward_ios,size: 18,),
                     ),
 
                     ListTile(
@@ -83,13 +83,13 @@ class MyApp extends StatelessWidget {
                         color: Colors.grey,
                       ),
                       title: Text("Voucher"),
-                      trailing: Icon(Icons.arrow_forward_ios),
+                      trailing: Icon(Icons.arrow_forward_ios,size: 18,),
                     ),
 
                     ListTile(
                       leading: Icon(Icons.favorite, color: Colors.grey),
                       title: Text("My wishlist"),
-                      trailing: Icon(Icons.arrow_forward_ios),
+                      trailing: Icon(Icons.arrow_forward_ios,size: 18,),
                     ),
 
                     ListTile(
@@ -98,13 +98,13 @@ class MyApp extends StatelessWidget {
                         color: Colors.grey,
                       ),
                       title: Text("Rate this app"),
-                      trailing: Icon(Icons.arrow_forward_ios),
+                      trailing: Icon(Icons.arrow_forward_ios ,size: 18,),
                     ),
 
                     ListTile(
                       leading: Icon(Icons.logout, color: Colors.grey),
                       title: Text("Log out"),
-                      trailing: Icon(Icons.arrow_forward_ios),
+                      trailing: Icon(Icons.arrow_forward_ios,size: 18,),
                     ),
                   ],
                 ),
