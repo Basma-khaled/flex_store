@@ -50,6 +50,8 @@ class MyApp extends StatelessWidget {
               ),
 
               Container(
+                 margin: EdgeInsets.symmetric(horizontal: 20, ),
+                padding: EdgeInsets.symmetric(vertical: 30),
                 decoration: BoxDecoration(
                   color: Colors.white,
 
